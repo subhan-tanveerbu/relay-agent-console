@@ -1,0 +1,20 @@
+streamlit>=1.38,<2.0
+
+# Agent / LLM (live mode — optional if OPENAI_API_KEY is unset)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+
+# Web search (no API key required)
+ddgs>=9.0.0
+requests>=2.32.0
+
+# File Reader tool
+pypdf>=4.3.0
+python-docx>=1.1.0
+
+# FastAPI service layer
+fastapi>=0.112.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+python-multipart>=0.0.9
