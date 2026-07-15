@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RELAY — Agent Ops Console
 
 A multi-tool AI agent presented as a mission-control dashboard, not a chatbot.
@@ -173,3 +174,6 @@ curl -X POST http://localhost:8000/execute -H "Content-Type: application/json" \
   function; import and call it from `app.py`. Nothing else needs to change.
 - **Re-skin** → edit `config.Palette` / `config.Type`; every component reads
   from CSS variables compiled by `components/theme.py`.
+=======
+# relay-agent-console
+>>>>>>> a7c90837283a41bc336d74272dec7f33b5280cfe
